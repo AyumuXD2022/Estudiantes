@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 @RequestMapping("/api")
 public class AlumnoControlador {
     @Autowired
-    private IEstudianteService estudianteService;
+    private IEstudianteService estudianteService;sss
 
     @GetMapping("/estudiantes") //Plural
     public ResponseEntity<List<Estudiante>> listarEstudiantes(){
