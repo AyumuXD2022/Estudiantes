@@ -21,9 +21,11 @@ public class Clase {
     private String descripcion;
 
     @Column(name = "fecha_inicio",nullable = false)
+    @Temporal(TemporalType.DATE)
     private Date fechaInicio;
 
     @Column(name = "fecha_fin",nullable = false)
+    @Temporal(TemporalType.DATE)
     private Date fechaFin;
 
 }
